@@ -1,6 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-
+        lelu lo1 = new lo1();
+        lelu lo2 = new lo2();
+        vieteriauto vao1 = new vao1();
 
     }
 }
@@ -21,9 +23,9 @@ Entä, jos muutat Lelu-luokan “tietojen tulostus” -metodin näkyvyydeksi pri
 Jos intoa vielä riittää, periytä Lelu-luokasta jokin toinen luokka.
  */
 
-public class lelu {
-    String nimi ="";
-    int paino = 0;
+class lelu {
+    public String nimi ="";
+    public int paino = 0;
 
             public void tulostaTiedot(){
 
@@ -31,7 +33,7 @@ public class lelu {
             }
     }
 
-public class vieteriauto {
+class vieteriauto {
     int nopeus = 0;
 
             public void kiihdyta(){
