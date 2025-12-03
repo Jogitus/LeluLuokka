@@ -35,8 +35,8 @@ class vieteriauto {
 
     }
 
-    /*Tee kantaluokka Lelu, jolla on kaksi attribuuttia (esim. nimi ja paino), parametriton muodostin,
-    yksi muodostin kaikilla parametreilla ja metodi, joka tulostaa olion tiedot.
+/*Tee kantaluokka Lelu, jolla on kaksi attribuuttia (esim. nimi ja paino), parametriton muodostin,
+yksi muodostin kaikilla parametreilla ja metodi, joka tulostaa olion tiedot.
 
 Tee toinen luokka - Vieteriauto, joka perii yllä tehdyn Lelu-kantaluokan.
 
