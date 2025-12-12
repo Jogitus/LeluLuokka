@@ -42,3 +42,5 @@ Muuta jokin kantaluokan attribuutti privateksi (esim. paino). Mitä tapahtuu?
 Entä, jos muutat Lelu-luokan “tietojen tulostus” -metodin näkyvyydeksi private...?
 
 Jos intoa vielä riittää, periytä Lelu-luokasta jokin toinen luokka. */
+
+// TESTING LAZYGIT :)
