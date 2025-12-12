@@ -10,15 +10,20 @@ class lelu {
     public int paino = 0;
             public void tulostaTiedot()
             {
+                System.out.println("Auton nimi: " + nimi);
+                System.out.println("Auton paino: " + paino);
             }
     }
 class vieteriauto {
     int nopeus = 0;
             public void kiihdyta()
             {
+                for(int i = 0, i<5, i++){
+                    nopeus++;
             }
             public void tulostaTiedot()
             {
+            
             }
     }
 /*Tee kantaluokka Lelu, jolla on kaksi attribuuttia (esim. nimi ja paino), parametriton muodostin,
