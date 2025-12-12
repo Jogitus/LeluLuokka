@@ -1,17 +1,19 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        lelu lo1 = new lo1();
+        lelu lo1 = new lo1("Miele", 300);
         lelu lo2 = new lo2();
         vieteriauto vao1 = new vao1();
     }
 } // Main Loppuu
 class lelu {
-    public String nimi ="";
-    public int paino = 0;
-            public void tulostaTiedot()
+    
+    public String nimi;
+    public int paino;
+
+            public void tulostaTiedot(String nimi, int paino)
             {
                 System.out.println("Auton nimi: " + nimi);
-                System.out.println("Auton paino: " + paino);
+                System.out.println("Auton paino: " + paino " grammaa");
             }
     }
 class vieteriauto {
@@ -48,4 +50,3 @@ Entä, jos muutat Lelu-luokan “tietojen tulostus” -metodin näkyvyydeksi pri
 
 Jos intoa vielä riittää, periytä Lelu-luokasta jokin toinen luokka. */
 
-// TESTING LAZYGIT :)
